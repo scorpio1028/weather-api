@@ -5,8 +5,9 @@ body{
     height: 100vh;
     margin: 0;
     background: rgb(13, 44, 13);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', serif;
     background-image: url(https://wallpapermemory.com/uploads/262/cloud-wallpaper-laptop-85862.jpg);
+    font-size: 120%;
 }
 .card{
     background-color: #000000d0;
@@ -28,8 +29,8 @@ button{
 margin: 0.5em;
 border-radius:50%;
 border: none;
-height: 46px;
-width: 46px;
+height: 44px;
+width: 44px;
 outline: none;
 background: silver;
 color: white;
@@ -40,10 +41,35 @@ transition: 0.2s ease-in-out ;
 input.searchbar{
     border: none;
     outline: none;
-    padding: 1em;
+    padding: .4em 1em;
     border-radius: 18px;
     background: #7c7c7c2b;    
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 120%;
+    font-size: 105%;
+    
+
+} 
+button:hover{
+background: #7c7c7c2b;
+}
+
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.icon{
+      
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+
 }
